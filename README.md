@@ -9,4 +9,9 @@ The React app server is then also started via "npm start" (though inside the "fr
 
 You MUST have both servers (backend + frontend) running for the projects to work.
 
-The backend API does use MongoDB database, which needs to be configured in a ".env" file inside "backend" folder.
+The backend API does use MongoDB database, which needs to be created and configured a ".env" file inside "backend" folder.
+
+this .env file must contain:
+
+DATABASE=string_to_connect_with_mongoDB
+DATABASE_PASSWORD=string_password_to_mongoDBs
