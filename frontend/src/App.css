@@ -1,0 +1,46 @@
+.app-container {
+  text-align: center;
+}
+
+.get-location-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-location-btn:hover {
+  background-color: #0056b3;
+}
+
+.location-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity here (0.5 = 50% opacity) */
+}
