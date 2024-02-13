@@ -13,5 +13,5 @@ The backend API does use MongoDB database, which needs to be created and configu
 
 this .env file must contain:
 
-DATABASE=string_to_connect_with_mongoDB
+DATABASE=string_to_connect_with_mongoDB; and
 DATABASE_PASSWORD=string_password_to_mongoDBs
